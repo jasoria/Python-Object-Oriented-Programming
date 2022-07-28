@@ -5,7 +5,7 @@ class Color:
 
     def _set_name(self, name):
         if not name:
-            raise Exception("Invalid Name")
+            raise Exception("Invalid name")
         self._name = name
 
     def _get_name(self):
