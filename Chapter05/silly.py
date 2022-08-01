@@ -17,7 +17,7 @@ class Silly:
 class SillyDecorated:
     @property
     def silly(self):
-        "This is a silly property"
+        """This is a silly property"""
         print("You are getting silly")
         return self._silly
 
